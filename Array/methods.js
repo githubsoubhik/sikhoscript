@@ -78,7 +78,25 @@ console.log(vegetables.slice(2,4));
 
 // splice Method
 
+//  splice(startIndex, deleteCount, newEliment...)
+// Here  we   can choose  index  after that we can delete   and add eliment
 
+// it change array
+
+let numbers = [44.25,58,45,47,148,149,548,321]
+
+numbers.splice(3, 2,101,202);
+
+console.log('apply splice method in   numbers array');
+
+console.log(numbers);
+
+//splice method act like a slice method
+
+numbers.splice(4);
+
+console.log('give the eliments   after    4 indexes   ');
+console.log(numbers);
 
 
 
